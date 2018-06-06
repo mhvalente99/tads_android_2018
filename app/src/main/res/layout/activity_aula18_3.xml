@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mhvalente.com.android2018.Aula18_3"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0">
+        <TextView android:text="Lista de Produtos"/>
+        <View android:layout_height="2dip" android:background="#FF909090"/>
+
+        <TableRow>
+            <TextView android:text="Samsung Galaxy S4"
+                android:id="@+id/tx_dsproduto"/>
+            <TextView android:text="R$ 2.000,00"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Samsung Galaxy Note II"/>
+            <TextView android:text="R$ 1.8000,00"/>
+        </TableRow>
+
+        <View android:layout_height="2dip" android:background="#FF909090"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprar"
+                android:id="@+id/bt_comprar18"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"
+                android:id="@+id/bt_cancelar"/>
+
+        </LinearLayout>
+    </TableLayout>
+
+</LinearLayout>

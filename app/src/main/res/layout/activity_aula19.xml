@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mhvalente.com.android2018.Aula19">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+            <TextView
+                android:text="Usuario: "
+                android:padding="3dip"/>
+            <EditText
+                android:id="@+id/ed_usuario"
+                android:padding="3dip"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Senha: "
+                android:padding="3dip"/>
+            <EditText
+                android:id="@+id/ed_senha"
+                android:inputType="textPassword"
+                android:padding="3dip"/>
+        </TableRow>
+
+        <TableRow android:gravity="center">
+            <Button
+                android:id="@+id/bt_autenticar"
+                android:text="Autenticar"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

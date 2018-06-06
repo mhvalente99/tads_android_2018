@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mhvalente.com.android2018">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Aula3" />
+        <activity android:name=".Aula4" />
+        <activity android:name=".Aula5" />
+        <activity android:name=".Aula2" />
+        <activity android:name=".Aula6" />
+        <activity android:name=".Aula7" />
+        <activity android:name=".Aula7_2" />
+        <activity android:name=".Aula7_3" />
+        <activity android:name=".Aula8" />
+        <activity android:name=".Aula8_2" />
+        <activity android:name=".Aula8_3" />
+        <activity android:name=".Aula9" />
+        <activity android:name=".Aula10" />
+        <activity android:name=".Aula11" />
+        <activity android:name=".Aula11_2" />
+        <activity android:name=".Aula11_Cadastro" />
+        <activity android:name=".Aula11_Pesquisar" />
+        <activity android:name=".Aula13" />
+        <activity android:name=".Aula14" />
+        <activity android:name=".Aula14_exec" />
+        <activity android:name=".aula14_execview" />
+        <activity android:name=".Aula14_exec_view" />
+        <activity android:name=".Aula15" />
+        <activity android:name=".Aula16" />
+        <activity android:name=".Aula16_Exercicio" />
+        <activity android:name=".Aula17" />
+        <activity android:name=".Aula17_2" />
+        <activity android:name=".Aula17_3" />
+        <activity android:name=".Aula18" />
+        <activity android:name=".Aula18_2" />
+        <activity android:name=".Aula18_3" />
+        <activity android:name=".Aula19"></activity>
+    </application>
+
+</manifest>

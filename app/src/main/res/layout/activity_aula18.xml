@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mhvalente.com.android2018.Aula18">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="5">
+
+        <TableRow>
+            <TextView android:text="Coluna 1"/>
+            <TextView android:text="Coluna 2"/>
+            <TextView android:text="Coluna 3"/>
+            <TextView android:text="Coluna 4"/>
+            <TextView android:text="Coluna 5"/>
+            <TextView android:text="Texto para testar o comprimento da coluna"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="Coluna 1"/>
+            <TextView android:text="Coluna 2"/>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:text="Tela 2"
+                android:id="@+id/btTela2"/>
+
+            <Button
+                android:text="Tela 3"
+                android:id="@+id/btTela3"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
