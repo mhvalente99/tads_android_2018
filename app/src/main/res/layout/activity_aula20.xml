@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mhvalente.com.android2018.Aula20"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="55dip"
+        android:layout_height="wrap_content"
+        android:text="Usuário"
+        android:id="@+id/lbUsuario"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edUsuario"
+
+        android:layout_toRightOf="@+id/lbUsuario"
+        android:background="@android:drawable/editbox_background"/>
+
+    <TextView
+        android:layout_width="55dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbSenha"
+        android:text="Senha:"
+
+        android:layout_below="@+id/edUsuario"
+        android:gravity="left"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edSenha"
+
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@+id/lbSenha"
+        android:layout_alignTop="@+id/lbSenha"
+        android:password="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:text="Login"
+
+        android:layout_below="@+id/edSenha"
+        android:layout_marginTop="10dip"
+        android:id="@+id/btLogin"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parte 2"
+        android:layout_below="@+id/btLogin"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btParte2"/>
+
+</RelativeLayout>
