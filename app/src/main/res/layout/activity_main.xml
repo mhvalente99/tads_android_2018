@@ -374,6 +374,35 @@
                 android:id="@+id/aula20"
                 android:layout_weight="1"/>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"
+                android:text="Aula 11 - 2 Bim - 08/06"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/aula21"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@android:color/darker_gray"
+                android:textColor="@android:color/white"
+                android:text="Aula 10 - 2 Bim - 06/06"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/aula22"
+                android:layout_weight="1"/>
+        </LinearLayout>
     </LinearLayout>
     </ScrollView>
 </LinearLayout>

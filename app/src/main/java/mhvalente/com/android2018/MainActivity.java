@@ -210,5 +210,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(aulai20);
             }
         });
+
+        final TextView aula21 = findViewById(R.id.aula21);
+        final Intent aulai21 = new Intent(this, Aula21.class);
+
+        aula21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(aulai21);
+            }
+        });
     }
 }

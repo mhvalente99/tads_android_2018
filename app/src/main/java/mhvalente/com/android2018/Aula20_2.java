@@ -73,7 +73,7 @@ public class Aula20_2 extends AppCompatActivity {
         bLogin.setGravity(Gravity.RIGHT);
 
         l1.addView(bLogin);
-        
+
         //setContentView(R.layout.activity_aula20_2);
         setContentView(l1);
     }
