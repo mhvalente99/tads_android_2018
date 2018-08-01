@@ -51,7 +51,9 @@
         <activity android:name=".Aula20" />
         <activity android:name=".Aula20_2" />
         <activity android:name=".Aula21" />
-        <activity android:name=".Aula21_2"></activity>
+        <activity android:name=".Aula21_2" />
+        <activity android:name=".Aula22" />
+        <activity android:name=".Aula23"></activity>
     </application>
 
 </manifest>

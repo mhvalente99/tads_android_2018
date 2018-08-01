@@ -2,4 +2,7 @@
     <string name="app_name">Android2018</string>
     <string name="ds_react">É um projeto desenvolvido pelos engenheiros do facebook e que consistem em uma serie de ferramentas que viabilizam a criação de app mobiles</string>
     <string name="ds_rails">É um projeto de código aberto escrito na linguagem de programação Ruby</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
 </resources>

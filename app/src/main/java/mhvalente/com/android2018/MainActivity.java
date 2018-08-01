@@ -220,5 +220,25 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(aulai21);
             }
         });
+
+        final TextView aula22 = findViewById(R.id.aula22);
+        final Intent aulai22 = new Intent(this, Aula22.class);
+
+        aula22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(aulai22);
+            }
+        });
+
+        final TextView aula23 = findViewById(R.id.aula23);
+        final Intent aulai23 = new Intent(this, Aula23.class);
+
+        aula23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(aulai23);
+            }
+        });
     }
 }
